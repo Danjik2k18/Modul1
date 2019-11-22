@@ -9,7 +9,16 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
-
+.wrapper {
+  overflow-x: hidden;overflow-y: hidden;
+}
+.content-movement a {
+  color: #38b037;
+}
+.footer-contact.up a {
+  text-decoration: none;
+  color: #000;
+}
 .row:after {
   visibility: hidden;
   display: block;
@@ -443,6 +452,9 @@ hr {
 hr.new {
   margin: 0;
 }
+i.fab.fa-facebook-f {
+  margin-left: 5px;
+}
 .sidebar-input2 {
   margin-top: 16px;
 }
@@ -488,7 +500,7 @@ a.button2 {
   padding: 0.4em 1.8em calc(0.1em + 3px);
   border-radius: 3px;
   transition: 0.2s;
-  position: absolute;
+  position: relative;
   font-size: 14px;
   font-family: "KlavikaMedium-Plain", sans-serif;
   text-transform: uppercase;
@@ -514,6 +526,7 @@ a.button2 {
   font-size: 14px;
   color: #7a6b4e;
   text-transform: uppercase;
+  position: relative;
 }
 .footer-block.one p {
   line-height: 18px;
