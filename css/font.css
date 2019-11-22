@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'KlavikaMedium-Plain';
+  src: url('../fonts/KlavikaMedium-Plain.eot');
+  src: url('../fonts/KlavikaMedium-Plain.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/KlavikaMedium-Plain.svg#KlavikaMedium-Plain') format('svg'),
+       url('../fonts/KlavikaMedium-Plain.ttf') format('truetype'),
+       url('../fonts/KlavikaMedium-Plain.woff') format('woff'),
+       url('../fonts/KlavikaMedium-Plain.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ZurichBT-RomanCondensed';
+  src: url('../fonts/ZurichBT-RomanCondensed.eot');
+  src: url('../fonts/ZurichBT-RomanCondensed.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ZurichBT-RomanCondensed.svg#ZurichBT-RomanCondensed') format('svg'),
+       url('../fonts/ZurichBT-RomanCondensed.ttf') format('truetype'),
+       url('../fonts/ZurichBT-RomanCondensed.woff') format('woff'),
+       url('../fonts/ZurichBT-RomanCondensed.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ZurichBT-BoldCondensed';
+  src: url('../fonts/ZurichBT-BoldCondensed.eot');
+  src: url('../fonts/ZurichBT-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ZurichBT-BoldCondensed.svg#ZurichBT-BoldCondensed') format('svg'),
+       url('../fonts/ZurichBT-BoldCondensed.ttf') format('truetype'),
+       url('../fonts/ZurichBT-BoldCondensed.woff') format('woff'),
+       url('../fonts/ZurichBT-BoldCondensed.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
