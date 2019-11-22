@@ -234,7 +234,50 @@
                   <option value="New York">New York</option>
                   <option value="Frattamaggiore">Frattamaggiore</option>
                 </select>
-                <div class="Shape_1"></div>
+                <!-- <div class="Shape_1"></div> -->
+                <div class="div">
+                <div class="svg">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="207px" height="45px">
+                   <defs>
+                   <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0.5px" y="0.5px" width="206px" height="44px"  >
+                       <feOffset in="SourceAlpha" dx="0" dy="0" />
+                       <feGaussianBlur result="blurOut" stdDeviation="1.732" />
+                       <feFlood flood-color="rgb(216, 213, 204)" result="floodOut" />
+                       <feComposite operator="atop" in="floodOut" in2="blurOut" />
+                       <feComponentTransfer><feFuncA type="linear" slope="1"/></feComponentTransfer>
+                       <feMerge>
+                       <feMergeNode/>
+                       <feMergeNode in="SourceGraphic"/>
+                     </feMerge>
+                   </filter>
+                   <filter id="Filter_1">
+                       <feOffset in="SourceAlpha" dx="2.046" dy="2.194" />
+                       <feGaussianBlur result="blurOut" stdDeviation="0" />
+                       <feFlood flood-color="rgb(129, 222, 65)" result="floodOut" />
+                       <feComposite operator="out" in="floodOut" in2="blurOut" result="compOut" />
+                       <feComposite operator="in" in="compOut" in2="SourceAlpha" />
+                       <feComponentTransfer><feFuncA type="linear" slope="1"/></feComponentTransfer>
+                       <feBlend mode="normal" in2="SourceGraphic" />
+                   </filter>
+                   <linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+                     <stop offset="0%" stop-color="rgb(15,148,26)" stop-opacity="1" />
+                     <stop offset="100%" stop-color="rgb(102,193,62)" stop-opacity="1" />
+                   </linearGradient>
+                   
+                   </defs>
+                   <g filter="url(#Filter_0)">
+                   <g filter="url(#Filter_1)">
+                   <path fill-rule="evenodd"  fill="rgb(67, 172, 45)"
+                    d="M185.500,39.500 L38.167,39.500 L11.500,39.500 L11.433,39.500 C8.672,39.500 6.433,37.261 6.433,34.500 L6.433,10.567 C6.433,7.805 8.672,5.567 11.433,5.567 L11.500,5.567 L11.500,5.500 L185.500,5.500 C185.500,5.500 200.977,19.810 201.000,22.833 C201.023,25.834 187.157,39.500 185.500,39.500 Z"/>
+                   </g></g>
+                   <path stroke-width="1px" stroke="rgb(12, 147, 47)" fill="url(#PSgrad_0)"
+                    d="M185.500,39.500 L38.167,39.500 L11.500,39.500 L11.433,39.500 C8.672,39.500 6.433,37.261 6.433,34.500 L6.433,10.567 C6.433,7.805 8.672,5.567 11.433,5.567 L11.500,5.567 L11.500,5.500 L185.500,5.500 C185.500,5.500 200.977,19.810 201.000,22.833 C201.023,25.834 187.157,39.500 185.500,39.500 Z"/>
+                   </svg>
+                </div>
+              </div>
               </div>
               <div class="sidebar-search">
                 <h2>

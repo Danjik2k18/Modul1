@@ -464,6 +464,19 @@ i.fab.fa-facebook-f {
 .sidebar-input1 input {
   width: 100%;
 }
+.svg {
+  position: relative;
+  width: 200px;
+  text-align: center;
+}
+.svg::before {
+ content: "SEARCH HOLIDAYS";
+ position: absolute;
+ line-height: 44px;
+ left: 19px;
+ color: #fff;
+ font-family: 'KlavikaMedium-Plain';
+} 
 .footer {
   height: 200px;
   margin-top: 18px;
@@ -657,6 +670,10 @@ input[type="checkbox"] {
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+  .svg {
+    position: relative;
+    text-align: center;
+}
   .header-menu li a:hover {
     background: black;
     width: 100%;
@@ -845,6 +862,10 @@ input[type="checkbox"] {
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+  .svg {
+    position: relative;
+    text-align: center;
+}
   .header-menu li a {
     padding: 0px 15px 0px 0px;
   }
@@ -1041,6 +1062,13 @@ input[type="checkbox"] {
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+  .svg {
+    position: relative;
+    text-align: center;
+}
+.svg::before {
+  left: 40px;
+}
   .footer::before {
     font-size: 12px;
   }
